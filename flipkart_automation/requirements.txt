@@ -1,0 +1,10 @@
+selenium==4.24.0
+pytest==8.3.2
+pytest-bdd==7.2.0
+pytest-xdist==3.6.1
+pytest-html==4.1.1
+pytest-webdriver==1.7.0
+#pytest-extent==<version> Extent Reports are no more available for Python
+webdriver-manager==4.0.2
+allure-pytest==2.13.5
+#allure-pytest-bdd==2.13.5

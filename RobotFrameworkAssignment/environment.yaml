@@ -1,0 +1,7 @@
+name: parabank_automation
+dependencies:
+  - python=3.x
+  - robotframework
+  - robotframework-seleniumlibrary
+  - allure-robotframework
+  - chromedriver-binary

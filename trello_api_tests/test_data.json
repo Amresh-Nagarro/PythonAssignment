@@ -1,0 +1,38 @@
+{
+    "api_key": "78ecc6b2149708931c7f1e1956efebcd",
+    "token": "ATTA6b524517290b2e344b60f924dfaca1a609e8a60dcd7a54fd67b5bbf338968d1395C25B85",
+    "base_url": "https://api.trello.com/1",
+    "board": {
+        "name": "API Demo",
+        "id": "66d344182cd6f947b1edb3c2",
+        "description": "Demo board"
+    },
+    "list": {
+        "toDoList": {
+            "name": "Demo List 1",
+            "id": "your_list_id"
+        },
+        "inProgressList": {
+            "name": "Demo List 2",
+            "id": "your_list_id"
+        },
+        "doneList": {
+            "name": "Demo List 3",
+            "id": "your_list_id"
+        }
+    },
+    "card": {
+        "testCard1": {
+            "name": "Card 1_1",
+            "description": "This is a test card for automation.",
+            "position": "top",
+            "due": "2024-09-30T10:00:00.000Z"
+        },
+        "testCard2": {
+            "name": "Card 1_2",
+            "description": "Another test card for automation.",
+            "position": "top",
+            "due": "2024-09-30T11:00:00.000Z"
+        }
+    }
+}

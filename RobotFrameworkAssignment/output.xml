@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.3 on win32)" generated="2024-09-05T21:17:25.877354" rpa="false" schemaversion="5">
+<suite id="s1" name="Parabank Test" source="D:\PythonTestAuto\RobotFrameworkAssignment\tests\parabank_test.robot">
+<kw name="Setup Suite" type="SETUP">
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2024-09-05T21:17:26.251921" level="FAIL">Variable '${SCREENSHOT_DIR}' not found.</msg>
+<arg>${SCREENSHOT_DIR}</arg>
+<doc>Creates the specified directory.</doc>
+<status status="FAIL" start="2024-09-05T21:17:26.251921" elapsed="0.000000">Variable '${SCREENSHOT_DIR}' not found.</status>
+</kw>
+<status status="FAIL" start="2024-09-05T21:17:26.251921" elapsed="0.000000">Variable '${SCREENSHOT_DIR}' not found.</status>
+</kw>
+<test id="s1-t1" name="Login to ParaBank and Validate Title" line="23">
+<doc>This test case logs into ParaBank and validates the title.</doc>
+<tag>smoke</tag>
+<status status="FAIL" start="2024-09-05T21:17:26.251921" elapsed="0.000000">Parent suite setup failed:
+Variable '${SCREENSHOT_DIR}' not found.</status>
+</test>
+<test id="s1-t2" name="Login With Invalid Credentials" line="30">
+<doc>This test case attempts login with invalid credentials.</doc>
+<tag>smoke</tag>
+<status status="FAIL" start="2024-09-05T21:17:26.263975" elapsed="0.000997">Parent suite setup failed:
+Variable '${SCREENSHOT_DIR}' not found.</status>
+</test>
+<kw name="Teardown Suite" type="TEARDOWN">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-05T21:17:26.266967" level="INFO">Suite teardown complete.</msg>
+<arg>Suite teardown complete.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-05T21:17:26.266967" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-05T21:17:26.266967" elapsed="0.000000"/>
+</kw>
+<doc>Test Suite for ParaBank Login</doc>
+<status status="FAIL" start="2024-09-05T21:17:25.889363" elapsed="0.377604">Suite setup failed:
+Variable '${SCREENSHOT_DIR}' not found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Parabank Test">Parabank Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-09-05T21:17:25.889363" level="ERROR">Error in file 'D:\PythonTestAuto\RobotFrameworkAssignment\tests\parabank_test.robot' on line 18: Setting variable '${TESTDATA_FILE} ./testdata/testdata.csv' failed: Invalid variable name '${TESTDATA_FILE} ./testdata/testdata.csv'.</msg>
+<msg time="2024-09-05T21:17:25.889363" level="ERROR">Error in file 'D:\PythonTestAuto\RobotFrameworkAssignment\tests\parabank_test.robot' on line 20: Setting variable '${SCREENSHOT_DIR} ${OUTPUTDIR}/screenshots/' failed: Invalid variable name '${SCREENSHOT_DIR} ${OUTPUTDIR}/screenshots/'.</msg>
+<msg time="2024-09-05T21:17:26.218142" level="ERROR">Error in file 'D:\PythonTestAuto\RobotFrameworkAssignment\tests\parabank_test.robot' on line 5: Importing library 'D:\PythonTestAuto\RobotFrameworkAssignment\custom_libraries\custom_library.py' failed: ModuleNotFoundError: No module named 'POCO'
+Traceback (most recent call last):
+  File "D:\PythonTestAuto\RobotFrameworkAssignment\custom_libraries\custom_library.py", line 6, in &lt;module&gt;
+    from POCO.context_injection import get_user_context
+PYTHONPATH:
+  D:\PythonTestAuto\RobotFrameworkAssignment\custom_libraries
+  D:\PythonTestAuto\.venv\Scripts\robot.exe
+  C:\Users\amresh2215\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\amresh2215\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\amresh2215\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\amresh2215\AppData\Local\Programs\Python\Python312
+  D:\PythonTestAuto\.venv
+  D:\PythonTestAuto\.venv\Lib\site-packages
+  D:\PythonTestAuto\.venv\Lib\site-packages\win32
+  D:\PythonTestAuto\.venv\Lib\site-packages\win32\lib
+  D:\PythonTestAuto\.venv\Lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
