@@ -1,0 +1,17 @@
+# Robot Framework core library
+robotframework==7.1
+
+# Selenium library for Robot Framework (for browser automation)
+robotframework-seleniumlibrary==6.6.1
+
+# Allure report integration for Robot Framework
+allure-robotframework==2.13.5
+
+# Python Selenium WebDriver (required for SeleniumLibrary)
+selenium==4.24.0
+
+# CSV handling (standard library, but listing for completeness)
+csv23==0.3.4
+
+# For parallel test execution (if you plan to implement parallel tests)
+robotframework-pabot==2.18.0

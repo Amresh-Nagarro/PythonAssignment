@@ -13,4 +13,4 @@ This project contains a Python-based test framework for Trello APIs. It uses Pyt
 1. Clone the repository.
 2. Install dependencies:
    ```bash
-   pip install requests pytest pytest-xdist
+   pip install -r requirements.txt
